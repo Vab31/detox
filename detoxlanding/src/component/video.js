@@ -197,7 +197,7 @@ export default function Video() {
             <div className="m-4">
               <img className="h-40 w-40 rounded-full" src={re2} alt="profile" />
             </div>
-            <div className="text-lg md:text-2xl font-bold mt-2">John Doe</div>
+            <div className="text-lg md:text-2xl font-bold mt-2">Kuldeep</div>
             <div className="text-base md:text-xl text-black text-center">
               (Quantum Wellness Coach)
             </div>
@@ -219,12 +219,15 @@ export default function Video() {
                 allowFullScreen
               ></iframe>
             </div>
+            <a href="/form">
             <button
               type="button"
               className="bg-orange-500 w-full text-white px-4 py-2 rounded cursor-pointer inline-block my-2"
             >
+              
               Register Now
             </button>
+              </a>
             <p className="text-center md:hidden">
               Reserve a seat before midnight, to unlock <br /> Bonuses Worth
               ₹5490

@@ -95,9 +95,11 @@ export default function Benefit() {
             </div>
           </div>
         </div>
-        <button class="flex mx-auto md:w-96 mt-16 text-center text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg items-center justify-center">
-          <p className="">Register</p>
+        <a href="/form">
+        <button class="flex mx-auto md:w-96 mt-16 mb-2 text-center text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg items-center justify-center">
+        Register
         </button>
+        </a>
       </div>
     </section>
   );
